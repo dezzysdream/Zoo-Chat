@@ -18,9 +18,9 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
         android:text="Call"
         app:icon="@drawable/ic_android_black_24dp"
@@ -31,7 +31,7 @@
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:text="Join"
         app:icon="@drawable/baseline_cruelty_free_24"
@@ -40,7 +40,7 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="115dp"
+        android:layout_width="100dp"
         android:layout_height="49dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="24dp"
@@ -48,6 +48,49 @@
         app:icon="@drawable/baseline_cookie_24"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="178dp"
+        android:layout_height="164dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:srcCompat="@drawable/pawprint_foreground"
+        android:tooltipText="Send an email" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:text="Mating Call"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:text="Join a Pack"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="24dp"
+        android:text="Eat a treat!"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
