@@ -61,7 +61,7 @@ GIF created with **ScreenToGif**
 
 Here is my entry for the "Create a second layout, this time for an original, personal app idea" stretch feature:
 
-It is for an app that **Allows animals to chat with other corporate Zoo animals. A ToolTip has been added! It prompts the user to send an email.**.
+ ** A ToolTip has been added! It prompts the user to send an email.**.
 
 
 
